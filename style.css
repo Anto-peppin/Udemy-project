@@ -209,9 +209,8 @@ li {
   transition: scale 0.5s linear;
 }
 .topics__topic p:hover {
-
   border: none;
-  box-shadow: 5px 5px 5px rgb(0, 0, 0),inset 5px 5px 5px rgba(0, 0, 0, 0.63);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0),inset 3px 3px 3px rgba(0, 0, 0, 0.63);
 }
 .popular {
   margin: 0 0 20px 20px;
@@ -240,7 +239,7 @@ footer {
 }
 .footer__main {
   display: flex;
-  gap: 40px;
+  gap: 70px;
 }
 .one p,
 .two p {
@@ -257,7 +256,7 @@ footer {
 }
 .footer__copy img {
   width: 100px;
-  filter: drop-shadow(0px 0px 5px white);
+  filter: drop-shadow(0px 0px 2px white);
 }
 .copy {
   position: relative;
